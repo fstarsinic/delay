@@ -6,7 +6,7 @@ A module to calculate smarter delays.
 The module uses the fibonacci sequence to determine the delay increase. A delay factor can also be used to increase the delay by a multiple, at creation time.
 ---
 **Example**
-`
+>
     a = Delay(1) #Start with a delay of 1
     while True:
       result = run_some_function()
@@ -16,4 +16,3 @@ The module uses the fibonacci sequence to determine the delay increase. A delay 
       else:
         save_results(result)
         break
-`
